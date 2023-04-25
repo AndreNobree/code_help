@@ -1,0 +1,47 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page - Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <div class="principal">
+        <div class="tedio">
+            <p><strong>LOGO EMPRESA</strong></p>
+        </div>
+        <div class="mov">       
+            <div class="carde">
+                <p><strong>Code Help</strong></p>
+                <form action="">
+                    <input type="text" placeholder="Usuário" id="email"><br>
+                    <input type="password" placeholder="Senha" id="senha"><br>
+                    <input type="submit" value="Entrar" id="envio">
+                    <p><small><u>ESQUECI A SENHA</u></small></p>
+                    <script src="./script.js" defer></script>
+                </form>
+                <p id="cad"><small><u>CADASTRE-SE</u></small></p>
+            </div>
+            
+        </div>
+        <div class="toast-container position-fixed bottom-0 top-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                
+                    <strong class="me-auto">Usuário Inválido</strong>
+                    <small>Code Help</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                
+                <div class="toast-body">
+                    Favor, verificar os campos
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
